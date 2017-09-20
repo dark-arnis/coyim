@@ -608,7 +608,7 @@ func (conv *conversationPane) updateSecurityWarning() {
 	styleContext, _ := conv.securityWarningNotif.area.GetStyleContext()
 	styleContext.AddProvider(prov, 9999)
 
-	conv.securityWarningNotif.label.SetMarkup("You are talking over an \nunprotected chat")
+	conv.securityWarningNotif.label.SetLabel("You are talking over an \nunprotected chat")
 	setImageFromFile(conv.securityWarningNotif.image, "secure.svg")
 	conv.securityWarningNotif.area.SetVisible(!ok || !conversation.IsEncrypted())
 }
