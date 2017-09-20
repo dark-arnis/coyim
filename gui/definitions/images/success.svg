@@ -3,11 +3,10 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 52 53" style="enable-background:new 0 0 52 53;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#89AF8F;stroke-miterlimit:10;}
-	.st1{fill:#E1F9E3;stroke:#89AF8F;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#89AF8F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#87A890;stroke-miterlimit:10;}
+	.st1{fill:#C6E0CC;stroke:#87A890;stroke-miterlimit:10;}
 </style>
 <circle class="st0" cx="25.9" cy="27.3" r="21.1"/>
-<polygon class="st1" points="24.6,27 18.7,21.1 13.2,26.5 24.6,37.9 40.3,22.2 34.9,16.8 "/>
-<path class="st2" d="M25.9,45c-9.8,0-17.7-8-17.7-17.7c0-9.8,8-17.7,17.7-17.7s17.7,8,17.7,17.7C43.6,37,35.6,45,25.9,45z"/>
+<polygon class="st1" points="23.6,27 17.7,21.1 12.2,26.5 23.6,37.9 39.3,22.2 33.9,16.8 "/>
+<path class="st0" d="M25.9,45c-9.8,0-17.7-8-17.7-17.7c0-9.8,8-17.7,17.7-17.7s17.7,8,17.7,17.7S35.6,45,25.9,45z"/>
 </svg>
