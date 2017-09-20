@@ -55,8 +55,6 @@
       <object class="GtkBox" id="notification-area">
         <property name="visible">true</property>
         <property name="orientation">GTK_ORIENTATION_VERTICAL</property>
-
-
 	<child>
           <object class="GtkBox" id="security-warning">
             <property name="visible">False</property>
