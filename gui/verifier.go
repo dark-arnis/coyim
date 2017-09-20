@@ -152,10 +152,9 @@ func (v *verifier) buildUnverifiedWarning(peerIsVerified func() bool) {
 		"button_verify_vertical", &v.unverifiedWarning.verifyButtonVert,
 	)
 
-	// TODO: will need an event box to handle this
-	//v.unverifiedWarning.b.ConnectSignals(map[string]interface{}{
-	//	"on_press_image": v.hideUnverifiedWarning,
-	//})
+	v.unverifiedWarning.b.ConnectSignals(map[string]interface{}{
+		"on_press_image": v.hideUnverifiedWarning,
+	})
 
 	// TODO: unify css
 	prov, _ := g.gtk.CssProviderNew()
