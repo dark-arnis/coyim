@@ -4468,7 +4468,7 @@ ICAgIDwvZz4KPC9zdmc+
 
 	"/definitions/images/secure.svg": {
 		local:   "definitions/images/secure.svg",
-		size:    1681,
+		size:    1680,
 		modtime: 1489449600,
 		compressed: `
 PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2Jl
@@ -4498,8 +4498,7 @@ LjkiIGN5PSIyOS4zIiByPSIyMS4xIi8+CjxwYXRoIGNsYXNzPSJzdDIiIGQ9Ik0yNi45LDQ3Yy05Ljgs
 MC0xNy43LTgtMTcuNy0xNy43YzAtOS44LDgtMTcuNywxNy43LTE3LjdzMTcuNyw4LDE3LjcsMTcuN1Mz
 Ni42LDQ3LDI2LjksNDd6Ii8+Cjxwb2x5Z29uIGNsYXNzPSJzdDQiIHBvaW50cz0iMzcuMiwzMy41IDM1
 LjUsMzEuOCAzMy4yLDM0LjEgMzAuOSwzMS44IDI5LjIsMzMuNSAzMS41LDM1LjggMjkuMiwzOC4xIDMw
-LjksMzkuOCAzMy4yLDM3LjUgCgkzNS41LDM5LjggMzcuMiwzOC4xIDM0LjksMzUuOCAiLz4KPC9zdmc+
-Cg==
+LjksMzkuOCAzMy4yLDM3LjUKCTM1LjUsMzkuOCAzNy4yLDM4LjEgMzQuOSwzNS44ICIvPgo8L3N2Zz4K
 `,
 	},
 
