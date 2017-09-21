@@ -105,7 +105,6 @@ func (v *verifier) showUnverifiedWarning() {
 	v.unverifiedWarning.show(v.chooseBestLayout)
 }
 
-// TODO: change names
 // TODO: check colors and sizes
 // TODO: check on linux
 type unverifiedWarning struct {
@@ -128,14 +127,6 @@ func (u *unverifiedWarning) show(showBestLayout func()) {
 	} else {
 		log.Println("We have a peer and a trusted fingerprint already, so no reason to show the unverified warning")
 	}
-}
-
-func (u *unverifiedWarning) showVerticalView() {
-}
-
-// TODO: set or make everything packed to end
-func (u *unverifiedWarning) showHorizontalView() {
-	u.button.Hide()
 }
 
 func (v *verifier) buildUnverifiedWarning(peerIsVerified func() bool) {
@@ -460,9 +451,7 @@ func (v *verifier) chooseBestLayout() {
 	currentWidth, _ := v.parentWindow.GetSize()
 	if currentWidth > bestHorizontalTransitionWidth {
 		v.peerRequestsSMP.showHorizontalView()
-		v.unverifiedWarning.showHorizontalView()
 	} else {
 		v.peerRequestsSMP.showVerticalView()
-		v.unverifiedWarning.showVerticalView()
 	}
 }
