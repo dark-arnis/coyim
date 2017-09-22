@@ -160,7 +160,7 @@ func (v *verifier) buildUnverifiedWarning(peerIsVerified func() bool) {
 	`)
 	_ = prov.LoadFromData(css)
 
-	styleContext, _ := v.unverifiedWarning.notification.GetStyleContext()
+	styleContext, _ := v.unverifiedWarning.infobar.GetStyleContext()
 	styleContext.AddProvider(prov, 9999)
 
 	prov1, _ := g.gtk.CssProviderNew()
