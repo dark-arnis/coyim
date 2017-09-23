@@ -101,8 +101,8 @@
                   <object class="GtkLabel" id="button-label-security-warning">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="margin_left">10</property>
-                    <property name="margin_right">10</property>
+                    <property name="margin_left">17</property>
+                    <property name="margin_right">17</property>
                     <property name="label" translatable="yes">Secure Chat</property>
                   </object>
                 </child>

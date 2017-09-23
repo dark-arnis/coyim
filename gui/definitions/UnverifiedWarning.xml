@@ -82,8 +82,8 @@
               <object class="GtkLabel">
                 <property name="visible">True</property>
                 <property name="can_focus">False</property>
-                <property name="margin_left">10</property>
-                <property name="margin_right">10</property>
+                <property name="margin_left">8</property>
+                <property name="margin_right">8</property>
                 <property name="label" translatable="yes">Validate Channel</property>
               </object>
 	    </child>
