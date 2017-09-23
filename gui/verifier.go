@@ -454,6 +454,7 @@ func (v *verifier) buildSMPFailedDialog() {
 		v.showUnverifiedWarning()
 		v.smpFailed.Hide()
 	})
+
 	addBoldHeaderStyle(builder.getObj("header").(gtki.Label))
 	msg := builder.getObj("verification_message").(gtki.Label)
 	msg.SetText(i18n.Localf("We could not verify this channel with %s.", v.peerName))
