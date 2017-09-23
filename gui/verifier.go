@@ -455,9 +455,8 @@ func (v *verifier) buildSMPFailedDialog() {
 		v.smpFailed.Hide()
 	})
 
-	addBoldHeaderStyle(builder.getObj("header").(gtki.Label))
 	msg := builder.getObj("verification_message").(gtki.Label)
-	msg.SetText(i18n.Localf("We could not verify this channel with %s.", v.peerName))
+	msg.SetText(i18n.Localf("We could not verify %s.", v.peerName))
 
 	tryLaterButton := builder.getObj("try_later").(gtki.Button)
 	tryLaterButton.Connect("clicked", func() {
